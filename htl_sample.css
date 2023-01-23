@@ -1,0 +1,530 @@
+/*
+Theme Name: Haney Child
+Theme URI: http://gohaney.com/wp/haney-child/
+Description: Haney Child Theme
+Author: Phillip Cornwell
+Author URI: http://gohaney.com
+Template: html5blank-stable
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, trucking
+Text Domain: haney-child
+*/
+
+/*
+Colors:
+Blue: #012169
+Red: #ba0c2f
+*/
+
+#menu-drop-down-menu {
+display: none;
+}
+
+li#mega-menu-item-859 {
+  background-color: #012169 !important;
+  padding: 10px 5px !important;
+}
+
+#mega-menu-item-859 > a {
+  color: #fff !important;
+}
+
+@font-face {
+	font-family: encodeSans;
+	src: url(https://web.archive.org/web/20160317233817im_/http://gohaney.com/web_fonts/EncodeSans-Regular.ttf);
+}
+
+@font-face {
+	font-family: encodeSans;
+	src: url(https://web.archive.org/web/20160317233817im_/http://gohaney.com/web_fonts/EncodeSans-Bold.ttf);
+	font-weight: bold;
+}
+
+html, body {
+overflow-x: hidden;
+width: 100%;
+max-width: 1500px;
+margin: 0 auto;
+padding: 0 10px;
+font-family: encodeSans !important;
+background-size: 100% 100%;
+-webkit-background-size: 100% 100%;
+-moz-background-size: 100% 100%;
+-o-background-size: 100% 100%;
+background-repeat: no-repeat;
+background-position: center;
+background-image: url(https://web.archive.org/web/20160317233817im_/http://gohaney.com/images/white-bg-px.jpg);
+background-color: #012169;
+}
+
+article#post-404 {
+width: 95%;
+text-align: center;
+}
+
+.wrapper {
+max-width: 100% !important;
+width: 100% !important;
+}
+
+form.search {
+display: none;
+}
+
+.aligncenter,
+div.aligncenter {
+display:block;
+margin:5px auto 5px auto;
+}
+
+.social-icons {
+float: left;
+margin-left: 2px;
+padding-right: 2px;
+padding-bottom: 2px;
+display: block;
+width: 48px;
+height: 48px;
+}
+
+#instagram {
+background: url(https://web.archive.org/web/20160317233817im_/http://gohaney.com/images/social-sprites.png) 0px -318px;
+}
+
+#youtube {
+background: url(https://web.archive.org/web/20160317233817im_/http://gohaney.com/images/social-sprites.png) 0px -106px;
+}
+
+#gplus {
+background: url(https://web.archive.org/web/20160317233817im_/http://gohaney.com/images/social-sprites.png) 0px -159px;
+}
+
+#vimeo {
+background: url(https://web.archive.org/web/20160317233817im_/http://gohaney.com/images/social-sprites.png) 0px -212px;
+}
+
+#linkedin {
+background: url(https://web.archive.org/web/20160317233817im_/http://gohaney.com/images/social-sprites.png) 0px -265px;
+}
+
+#fb {
+background: url(https://web.archive.org/web/20160317233817im_/http://gohaney.com/images/social-sprites.png) 0px 0px;
+}
+
+#twitter {
+background: url(https://web.archive.org/web/20160317233817im_/http://gohaney.com/images/social-sprites.png) 0px -53px;
+}
+
+header {
+clear: both;
+height: 90px;
+max-height: 250px;
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+padding: 10px 0;
+}
+
+.logo {
+position: relative;
+z-index: 1;
+float: left;
+width: 250px;
+max-width: 250px;
+height: 83px;
+max-height: 83px;
+padding: 0;
+margin-right: 25px;
+}
+
+nav {
+float: right;
+text-align: right;
+padding: 0;
+padding-bottom: 10px;
+margin: 0;
+margin-top: 25px;
+position: relative;
+z-index: 1;
+}
+
+nav > ul, .menu > ul {
+list-style-type: none;
+margin: 0;
+padding: 30px 0 0 0;
+}
+
+nav > ul > li, .menu > ul > li {
+display: inline;
+margin: 0;
+padding: 0 7px;
+font-size: 20px;
+}
+
+nav > ul > li > a, .menu > ul > li > a {
+text-decoration: none !important;
+margin: 0;
+padding: 0;
+color: #012169;
+transition: color .75s;
+-webkit-transition: color .75s;
+}
+
+.menu-item-193,  .menu-item-193 a, nav > ul > li.menu-item-193 > a {
+color: white !important;
+background-color: #012169;
+height: 250px;
+padding: 25px 10px;
+}
+
+nav > ul > li > a:hover, .menu > ul > li > a:hover {
+color: #ba0c2f;
+}
+
+.responsiveMenuSelect {
+margin-top: 25%;
+}
+
+.page-body {
+width: 100%;
+max-width: 2560px;
+}
+
+.soliloquy-container, .soliloquy-wrap {
+overflow: hidden;
+margin-left: auto !important;
+margin-right: auto !important;
+}
+
+.soliloquy-viewport {
+clear: both;
+overflow: hidden;
+}
+
+#soliloquy-20 li img {
+width: 100%;
+}
+
+.soliloquy-wrapper {
+max-height: 1000px;
+overflow: hidden;
+}
+
+#home-ctas {
+max-width: 2560px;
+clear: both;
+margin-right: auto;
+margin-left: auto;
+}
+
+body {
+margin: 0;
+padding: 0;
+min-width: 515px;
+color: #000;
+}
+
+a {
+color: #ba0c2f;
+text-decoration: none;
+transition: color .75s;
+-webkit-transition: color .75s;
+}
+
+a:hover, a:active {
+color: #012169;
+text-decoration: underline;
+}
+
+.body-text {
+float: left;
+padding-left: 10px;
+}
+
+.post {
+width: 95%;
+margin: 0 auto;
+}
+
+.left-half {
+float: left;
+max-width: 50%;
+}
+
+.right-half {
+float: left;
+max-width: 50%;
+}
+
+.right-half img {
+padding-top: 15%;
+width: 100%;
+height: auto;
+max-width: 500px;
+}
+
+.date, .author, .comments, .view-article {
+display: block;
+clear: both;
+}
+
+ul#home-page-cta {
+width:100%;
+padding: 0;
+list-style: none;
+margin-left: auto;
+margin-right: auto;
+}
+
+.cta {
+width: 98%;
+max-width: 2560px;
+clear: both;
+text-align: justify;
+font-size: 1.25em;
+color: #012169;
+padding: 10px 35px 15px 15px;
+}
+
+.cta p {
+padding-right: 35px;
+}
+
+h1.cta {
+font-size: 2em;
+padding-bottom: 0;
+}
+
+ul#four-ctas {
+list-style-type: none;
+margin: 0;
+margin-top: -20px;
+padding: 0;
+clear: both;
+width: 100%;
+}
+
+li#eins, li#zwei, li#drei, li#vier {
+float: left;
+width: 25%;
+text-align: center;
+vertical-align: middle;
+color: #000;
+text-shadow: #fff 0px 0px 2px;
+background-size: auto 250px;
+-webkit-background-size: auto 250px;
+-moz-background-size: auto 250px;
+-o-background-size: auto 250px;
+background-repeat: no-repeat;
+background-position: center;
+height: 250px;
+max-width: 25%;
+max-height: 250px;
+overflow: hidden;
+}
+
+li#eins a, li#zwei a, li#drei a, li#vier a {
+text-decoration: none;
+color: #000;
+}
+
+#eins {
+background-image: url("https://web.archive.org/web/20160317233817im_/http://gohaney.com/images/cta-driving.jpg");
+}
+
+#zwei {
+background-image: url("https://web.archive.org/web/20160317233817im_/http://gohaney.com/images/cta-peterbilt-logo.jpg");
+}
+
+#drei {
+background-image: url("https://web.archive.org/web/20160317233817im_/http://gohaney.com/wp/wp-content/uploads/2015/04/haney-trailer.jpg");
+}
+
+#vier {
+background-image: url("https://web.archive.org/web/20160317233817im_/http://gohaney.com/images/cta-lined-trucks.jpg");
+}
+
+.haney-footer {
+padding-bottom: 20px;
+overflow: hidden;
+max-height: 280px;
+background-color: #012169;
+}
+
+.footer-menu, .copyright {
+clear: both;
+text-align: center;
+font-size: 12px;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+padding-top: 5px;
+}
+
+section > h1 {
+display: none;
+}
+
+hr.big-blue {
+width: 100%;
+max-width: 2560px;
+height: 10px !important;
+color: #012169;
+background-color: #012169;
+border: none;
+clear: both;
+}
+
+#hp-slider {
+width: 100%;
+}
+
+.home-slider {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#jobs-page {
+max-width: 98%;
+margin-left:auto;
+margin-right:auto;
+background-color: #fff;
+}
+
+#service-area-img {
+width: 610px;
+float: left;
+}
+
+.footer ul {
+padding: 0 !important;
+}
+
+li#footer-1, li#footer-2, li#footer-3, li#footer-4 {
+float: left;
+width: 25%;
+background-size: auto 250px;
+-webkit-background-size: auto 250px;
+-moz-background-size: auto 250px;
+-o-background-size: auto 250px;
+background-repeat: no-repeat;
+background-position: center;
+height: auto;
+min-height: 280px;
+max-width: 25%;
+overflow: hidden;
+text-align: left;
+color: #fff;
+}
+
+li#footer-1 h4, li#footer-2 h4, li#footer-3 h4, li#footer-4 h4, li#footer-1 p, li#footer-2 p, li#footer-3 p, li#footer-4 p {
+margin-left: 5%;
+}
+
+#footer-2 img {
+max-height: 200px;
+width: auto;
+max-width: 100%;
+}
+
+#footer-4 img {
+max-width: 95%;
+}
+
+.footer {
+padding-top: 15px;
+clear: both;
+max-width: 2560px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.footer a, .footer-menu a {
+text-decoration: none;
+color: #000;
+}
+
+.wpProQuiz_content {
+width: 98%;
+}
+
+@media only screen and (max-device-width: 960px) {
+
+.cta {
+width: 95%;
+}
+
+#service-area-img {
+width: 610px;
+margin-left: auto;
+margin-right: auto;
+clear: both;
+}
+
+.right-half {
+display:none;
+}
+
+.left-half {
+float: left;
+clear: right;
+max-width: 95% !important;
+}
+
+.haney-footer {
+max-height: 250px;
+}
+
+.footer-menu, .copyright {
+text-align: center;
+font-size: 10px;
+}
+
+li#eins, li#zwei, li#drei, li#vier {
+font-size: .75em;
+max-height: 150px;
+}
+
+li#footer-1, li#footer-2, li#footer-3, li#footer-4 {
+font-size: .75em;
+}
+}
+
+@media only screen and (max-device-width: 800px) {
+.logo {
+position: relative;
+z-index: 2;
+clear: both;
+min-width: 50%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.cta {
+font-size: 15px;
+}
+}
+/*
+     FILE ARCHIVED ON 23:38:17 Mar 17, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:30:37 Jan 23, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 93.85
+  exclusion.robots: 0.219
+  exclusion.robots.policy: 0.212
+  RedisCDXSource: 0.797
+  esindex: 0.008
+  LoadShardBlock: 70.371 (3)
+  PetaboxLoader3.datanode: 112.274 (4)
+  CDXLines.iter: 19.686 (3)
+  load_resource: 104.11
+  PetaboxLoader3.resolve: 43.137
+*/
