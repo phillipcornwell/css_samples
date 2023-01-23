@@ -1,0 +1,220 @@
+/*
+ Theme Name:   Andrea Leslie Weddings and Events
+ Theme URI:    http://www.sterlingmedianw.com
+ Description:  Child Theme for Andrea Leslie Weddings and Events
+ Author:       Phillip Cornwell | Website Designer | Sterling Media Northwest
+ Author URI:   http://www.sterlingmedianw.com
+ Template:     Geraldine
+ Version:      0.1.0
+ Text Domain:  geraldine-child
+*/
+
+@import url("/web/20150802050054cs_/http://andrealeslieweddings.com/wp-content/themes/Geraldine/style.css");
+
+/* Site Wide */
+ol li, .feature-content-button, .footer-navi, .side-widget a, body p, .post-meta {
+font-family: calibri, sans-serif;
+}
+
+blockquote {
+padding-left: 2px;
+/* width: 245px; */
+float: left;
+clear: none !important;
+}
+
+hr {
+/*
+border-color: #fce2d3;
+*/
+display: block;
+border: none;
+height: 10px;
+background-image: url('/web/20150802050054im_/http://andrealeslieweddings.com/wp-content/themes/andrealeslieweddings/images/title_bg.gif');
+background-repeat: repeat-x;
+margin-bottom: 10px !important;
+}
+
+.page-title {
+letter-spacing: 0.05em;
+}
+
+.home-widgets {
+background: #dddbdb !important;
+margin-bottom: 20px !important;
+}
+
+.home-widget-inner {
+background-color: #d8e8df  !important;
+}
+
+/* If you want even rows to have a different background color remove the comment tags below and set your alternating row color */
+/*
+.even-row .home-widget-inner {
+background-color: #fce2d3 !important;
+}
+
+.even-row .feature-content-button:hover {
+background: #d8e9df !important;
+border: 1px solid #d8e9df !important;
+}
+*/
+
+/* Blog Pages */
+/* Blog Comments */
+.comment-meta, .comment-meta h6 {
+font-family: calibri, sans-serif !important;
+}
+
+/* Gallery Page */
+
+.page-id-53 .col1, .page-id-53 .col2, .page-id-53 .col3 {
+line-height: 0.0 !important;
+}
+
+.page-id-53 .home-widget {
+height: 295px !important;
+}
+
+.page-id-53 .home-widget-inner {
+height: 251px !important;
+}
+
+/* Testimonial Page */
+.page-id-44 img.alignleft {
+margin: 0 20px -25px 25px !important;
+}
+
+.page-id-44 img.aligncenter {
+margin-bottom: -40px;
+}
+
+.page-id-44 .article blockquote {
+margin: 20px 0 -20px 0 !important;
+}
+
+/* Contact Page */
+.page-id-20 .wpcf7 {
+width: 40%;
+float: left;
+}
+
+.page-id-20 .wp-image-454 {
+float: right;
+margin-top: -40px;
+}
+
+#wpcf7-f337-p20-o1 p {
+line-height: 3em !important;
+margin-bottom: 0px !important;
+font-family: calibri, sans-serif !important;
+max-width: 100%;
+clear:both;
+}
+
+.additional-text {
+font-family: calibri, sans-serif !important;
+width: 100%;
+clear: both;
+}
+
+/* Mobile settings for contact form */
+
+@media only screen and (max-device-width:480px) {
+.page-id-20 .wpcf7 {
+width: 100% !important;
+clear:both !important;
+}
+
+.page-id-20 .wp-image-454 {
+float: none;
+clear: both;
+}
+
+.form-box {
+margin-top: 3px !important;
+float: left !important;
+}
+
+#wpcf7-f337-p20-o1 p {
+margin-bottom: 3px !important;
+float: left;
+}
+
+#referral-dropdown {
+float: left !important;
+clear: both;
+}
+
+.page-id-20 .wpcf7-list-item {
+display: block;
+clear: both;
+float: left;
+}
+}
+
+/* End of mobile contact form settings */
+
+.form-box {
+margin-top: -5px;
+float: right;
+border-color: #ffc2bb;
+}
+
+#date-box {
+max-width: 285px;
+}
+
+#name-box, #email-box, #phone-box {
+max-width: 310px;
+}
+
+#time-box {
+max-width: 200px;
+}
+
+#referral-dropdown {
+max-width: 190px;
+margin-top: 5px;
+}
+
+.page-id-20 #service-radio .input {
+vertical-align: sub !important;
+}
+
+/* Share Box */
+
+.social-butterfly .share-box {
+background: #ffc2bb;
+}
+
+.social-butterfly .share-box .middle .icon-box {
+border-left: 1px solid #ffffff !important;
+}
+
+/* Footer */
+p.footer-copy .footer-credit {
+background: url('https://web.archive.org/web/20150802050054im_/http://7d6.54e.myftpupload.com/wp-content/uploads/2014/04/smnw-logo.png') no-repeat 0 0 !important;
+height: 25px !important;
+}
+/*
+     FILE ARCHIVED ON 05:00:54 Aug 02, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:24:13 Jan 23, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 144.688
+  exclusion.robots: 0.087
+  exclusion.robots.policy: 0.078
+  RedisCDXSource: 15.415
+  esindex: 0.009
+  LoadShardBlock: 104.9 (3)
+  PetaboxLoader3.datanode: 101.692 (4)
+  CDXLines.iter: 21.264 (3)
+  load_resource: 95.956
+  PetaboxLoader3.resolve: 38.059
+*/
