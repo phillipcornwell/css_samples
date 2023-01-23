@@ -1,0 +1,165 @@
+/*
+Theme Name:     Integrity Plumbing
+Theme URI:      http://coastmediagroup.net
+Description:    Child theme for the Integrity Plumbing Website, implemented by WestCoast Media Group
+Author:         WestCoast Media Group
+Author URI:     http://coastmediagroup.net
+Template:      Lucid
+Version:       2.5
+*/
+
+@import url("/web/20161020154710cs_/http://florenceplumbers.net/wp-content/themes/Lucid/style.css");
+
+/* #ff851e = Orange */
+/* #0365d0 = Blue */
+
+/*-- Top of Page --*/
+
+#main-header {
+margin-bottom: 10px;
+}
+
+.container #logo-area {
+margin-bottom: 10px;
+}
+
+#switcher-container {
+display: none;
+}
+
+#top-menu > ul > li > a:hover {
+background-color: #0365d0;
+color: #ff851e;
+}
+
+#second-menu > ul > li > a:hover {
+background-color: #ff851e!important;
+color: #0365d0 !important;
+}
+
+#second-menu ul.nav li ul a, #second-menu ul.nav li ul a:hover {
+background-color: #ff851e!important;
+color: #0365d0 !important;
+}
+
+#second-menu ul ul li a {
+border-top: 1px solid #fff !important;
+text-shadow: none !important;
+}
+
+#featured .flex-direction-nav a.flex-prev, #video-slider-section .flex-direction-nav a.flex prev {
+background: #ff851e url(/web/20161020154710im_/http://florenceplumbers.net/wp-content/themes/Lucid/images/left-arrow_hover.png) no-repeat 21px center;
+}
+
+#featured .flex-direction-nav a.flex-prev:hover, #video-slider-section .flex-direction-nav a.flex prev:hover {
+background: #0365d0 url(/web/20161020154710im_/http://florenceplumbers.net/wp-content/themes/Lucid/images/left-arrow_hover.png) no-repeat 21px center;
+}
+
+#featured .flex-direction-nav a.flex-next, #video-slider-section .flex-direction-nav a.flex-next {
+background: #ff851e url(/web/20161020154710im_/http://florenceplumbers.net/wp-content/themes/Lucid/images/right-arrow_hover.png) no-repeat 25px center;
+}
+
+#featured .flex-direction-nav a.flex-next:hover, #video-slider-section .flex-direction-nav a.flex next:hover {
+background: #0365d0 url(/web/20161020154710im_/http://florenceplumbers.net/wp-content/themes/Lucid/images/right-arrow_hover.png) no-repeat 25px center;
+}
+
+.title {
+color: #0365d0 !important;
+font-weight: 900;
+}
+
+/*-- Body of Page --*/
+
+a {
+color: #0365d0 !important;
+text-decoration: none;
+}
+
+a:hover {
+color: #ff851e !important;
+text-decoration: underline;
+}
+
+h3.main-title {
+background-color: #ff851e !important;
+}
+
+div.recent-category > div.recent-category_widget > div.textwidget {
+text-align: justify;
+}
+
+/*-- Sidebar Advice Widget --*/
+
+.menu-advice-container a:hover {
+color: #0365d0 !important;
+}
+.menu-advice-container a {
+color: #ff851e !important;
+}
+
+/*-- This hides everything but the page names on the sitemap page --*/
+
+.sitemap-col > h2, .sitemap-col.last, #sitemap > .sitemap-col ~ .sitemap-col ~ .sitemap-col, #sitemap > .sitemap-col ~ .sitemap-col  {
+display: none;
+}
+
+/*-- This hides the "content area" on the home page --*/
+
+div#main-area > div.container > div#featured_section ~ div#recent-categories ~ div#content-area {
+display: none;
+}
+
+/*-- Page Footer --*/
+#bottom-menu a {
+font-size: 12px;
+}
+
+.footer-widget a > img ~ img {
+padding-left: 17px;
+}
+
+/* Images, borders, and drop shadows */
+
+#post-23 .alignleft.size-full.wp-image-267, #post-37 .alignleft.size-full.wp-image-225, #post-18 .aligncenter.size-full.wp-image-188, #post-18 .alignright.size-full.wp-image-194, #post-31 .alignleft.size-full.wp-image-204, #post-31 .alignleft.size-full.wp-image-217, #post-31 .alignleft.size-full.wp-image-214 {
+border: 10px solid #ff851e;
+-moz-box-shadow: 5px 5px 10px;
+-webkit-box-shadow: 5px 5px 10px;
+box-shadow: 5px 5px 10px #0365d0;
+}
+
+#post-23 .alignleft.size-full.wp-image-267, #post-18 .aligncenter.size-full.wp-image-188 {
+margin-left: -25px;
+}
+
+/* Misc */
+
+::-moz-selection  {
+background-color: #ff851e !important;
+color: #0365d0 !important;
+}
+
+::selection  {
+background-color: #ff851e !important;
+color: #0365d0 !important;
+}
+/*
+     FILE ARCHIVED ON 15:47:10 Oct 20, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:51:17 Jan 23, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 95.92
+  exclusion.robots: 0.065
+  exclusion.robots.policy: 0.059
+  cdx.remote: 0.055
+  esindex: 0.007
+  LoadShardBlock: 73.926 (3)
+  PetaboxLoader3.datanode: 86.7 (4)
+  CDXLines.iter: 12.921 (3)
+  load_resource: 158.166
+  PetaboxLoader3.resolve: 119.892
+*/
